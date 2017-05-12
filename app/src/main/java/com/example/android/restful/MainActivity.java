@@ -18,11 +18,13 @@ import com.example.android.restful.services.MyService;
 import com.example.android.restful.utils.NetworkHelper;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String JSON_URL = "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
-    public ArrayList<DataItem> dataItemList;
+    public List<DataItem> dataItemList;
 
     private boolean networkOk;
     TextView output;
@@ -33,16 +35,13 @@ public class MainActivity extends AppCompatActivity {
 //            String message = intent.getStringExtra(MyService.MY_SERVICE_PAYLOAD);
 
             DataItem[] dataItems = (DataItem[]) intent.getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
-            for (DataItem item : dataItems) {
-               //output.append(item.getItemName() + "\n");
-                dataItemList.add(item);// Saving in a List !!
+            dataItemList = Arrays.asList(dataItems);
+
+            for (int i = 0; i < dataItemList.size() ; i++) {
+                output.append(dataItemList.get(i).getCategory() + "\n");
+                Log.d("MainActivity" , "DataList: " + dataItemList.get(i).getImage());
             }
 
-            Log.d("MainActivity" , "DataList: " + dataItemList.size());
-            for (DataItem item  : dataItemList){
-                output.append(item.getItemName() + "\n");
-                Log.d("MainActivity" , "DataList: " + item.getImage());
-            }
         }
     };
 
