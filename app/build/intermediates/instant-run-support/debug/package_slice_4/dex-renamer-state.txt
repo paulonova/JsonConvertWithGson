@@ -1,0 +1,4 @@
+#Fri May 12 15:41:46 CEST 2017
+base.0=D\:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4
+renamed.0=classes.dex
+file.0=D\:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_4\\classes.dex
