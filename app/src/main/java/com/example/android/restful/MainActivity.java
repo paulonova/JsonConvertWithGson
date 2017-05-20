@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             dataItemList = Arrays.asList(dataItems);
 
             for (int i = 0; i < dataItemList.size() ; i++) {
-                output.append(dataItemList.get(i).getCategory() + "\n");
+                output.append(dataItemList.get(i).getItemName() + "\n");
                 Log.d("MainActivity" , "DataList: " + dataItemList.get(i).getImage());
             }
 

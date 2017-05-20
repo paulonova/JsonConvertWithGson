@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Paulo Vila Nova\\.android\\build-cache\\8b9195f0d4c01dd631410461d48f750f9c11e6ab\\output\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\Paulo Vila Nova\\.android\\build-cache\\8b9195f0d4c01dd631410461d48f750f9c11e6ab\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
         "source": "C:\\Users\\Paulo Vila Nova\\.android\\build-cache\\8b9195f0d4c01dd631410461d48f750f9c11e6ab\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\Paulo Vila Nova\\.android\\build-cache\\8b9195f0d4c01dd631410461d48f750f9c11e6ab\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\ONLINE_PIZZA\\LYNDA_COM\\Exercise Files\\Ch03\\03_04\\ParseWithGson\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
